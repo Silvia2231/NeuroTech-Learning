@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Portada */
+.header {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Intro */
+.intro, .autor, .quiz-container {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Autor */
+.autor {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Quiz */
+.quiz-container input, .quiz-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#answers button {
+    display: block;
+    margin: 10px 0;
+    background: #e6e6e6;
+    color: black;
+    border: 1px solid #bbb;
+}
+
+/* Chatbot */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chatbot-box {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 280px;
+    background: white;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+.chat-header {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.chat-body {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+#chat-input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
